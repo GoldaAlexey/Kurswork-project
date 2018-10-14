@@ -12,15 +12,16 @@
     <link rel="stylesheet" href="css/homePage.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-around">
+    <!-- Сделать через buttonGroup кнопки, идеальное решение!!!!-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-start">
         <div class="brands">
         <a class="navbar-brand" href="#">
             <img src="img/company_logo.jpg" width="100" height="50" alt="">
         </a>      
-        <button type="button" class="btn btn-secondary">ЖЕНСКОЕ</button>
+        <button type="button" class="btn ">ЖЕНСКОЕ</button>
         <button type="button" class="btn btn-secondary">МУЖСКОЕ</button>
         </div>
-        <form class="form-inline col-6 my-4 my-lg-0">
+        <form class="form-inline col-4 my-4 my-lg-0">
             <input class="form-control col-12" type="search" placeholder="Искать..." aria-label="Search">
         </form>
         <div class="d-flex justify-content-start">
@@ -29,6 +30,10 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="d-flex flex-row">
+                        <a class="dropdown-item" href="#">Войти</a>
+                        <a class="dropdown-item" href="#">Регистрация</a>
+                    </div>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Личный кабинет</a>
                     <div class="dropdown-divider"></div>
@@ -38,11 +43,57 @@
                 </div>
             </li>
         </ul>
-        <button type="button" class="btn btn-secondary"></button>
-        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary">Card</button>
+        <button type="button" class="btn btn-secondary">Save prod</button>
     </div>
     </nav>
 
+    <footer>    
+            <div class="d-flex justify-content-center white">
+                 <div class="border-right">  
+                    <a class="btn" href="#" role="button"><img src="img/icons8-facebook-48.png" alt=""></a>
+                    <a class="btn" href="#" role="button"><img src="img/icons8-instagram-48.png" alt=""></a>
+                    <a class="btn" href="#" role="button"><img src="img/icons8-вконтакте-48.png" alt=""></a>
+                </div> 
+                <div>
+                    <a class="btn" href="#" role="button"><img src="img/icons8-виза-48.png" alt=""></a>
+                </div>
+            </div>
+            <div class="row info justify-content-center">
+                <div class="col-2 d-flex flex-column">
+                    <p> ПОМОЩЬ И ИНФОРМАЦИЯ</p>
+                    <a href="#">Помощь</a>
+                    <a href="#">Отследить заказ</a>
+                    <a href="#">Доставка и возвраты</a>
+                    <a href="#">10% скидка для студентов</a>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                        <p> ПОДРОБНЕЕ ОБ SHOPNAME</p>
+                        <a href="#">О нас</a>
+                        <a href="#">Вакансии в SHOPNAME</a>
+                        <a href="#">Корпоративная ответственность</a>
+                        <a href="#">Инвесторам</a>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <p> БОЛЬШЕ О SHOPNAME</p>
+                    <a href="#">Версия для мобильного и приложение SHOPNAME</a>
+                    <a href="#">SHOPNAME MarketPlace</a>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <p> ШОППИНГ В</p>
+                </div>
+            </div>
+            <div class="darker d-flex justify-content-around footerCopy">
+                <div class="col-7">
+                    <p>&copy; 2018</p>
+                </div>
+                <div class="col-4">
+                    <a href="#">Конфеденциальность и cockie-файлы</a>
+                    <a href="#">Правила и условия</a>
+                    <a href="#">Доступность</a>
+                </div>
+            </div>
+        </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
