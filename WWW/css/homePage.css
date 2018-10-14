@@ -1,0 +1,24 @@
+*{
+    list-style: none;
+}
+.dropdown:hover > .dropdown-menu { 
+    display: block; 
+} 
+
+.rounded{
+    border-radius: 10%;
+}
+.brands{
+    margin-left:5%;
+    padding-left:0;
+    padding-right: 0;
+}
+
+.btn{
+    padding: 13px 6px;
+    border: 0px; 
+}
+
+.navbar-brand{
+    margin-right: 0;
+}
