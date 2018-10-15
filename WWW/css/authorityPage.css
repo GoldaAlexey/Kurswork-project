@@ -12,7 +12,11 @@ body,button{
 
 .center{
     width: 40%;
-    margin: 10% auto;
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 2% auto;
 }
 
 .container{
@@ -79,3 +83,58 @@ form #input{
 .btn-dark,form #input{
     border-radius: 0;
 }
+
+.title {
+    margin: 1% 0 2% 0;
+    overflow: hidden;
+  }
+  .title:before,
+  .title:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1px;
+    background: rgba(5, 5, 5,0.5);
+    border: solid #FFF;
+    border-width: 0 10px;
+  }
+  .title:before {
+    margin-left: -100%;
+  }
+  .title:after {
+    margin-right: -100%;
+  }
+
+  .connect{
+    width: 31%;
+    padding: 2% 0 1% 0;
+    color: #fff;
+    border: 0px;
+  }
+.connect img{
+    width: 19%;
+    padding-bottom: 3%;
+}
+  .facebook{
+      background-color: #3b5998;
+  }
+
+  .google{
+    background-color: #dc4e40;
+    padding-top: 3%;
+  }
+
+  .vk{
+    background-color: #597da3;
+    padding-top: 3%;    
+  }
+
+  .connect:hover{
+    opacity: 0.5;
+  }
+
+  .margin-bottom{
+      margin-bottom: 10%;
+  }
