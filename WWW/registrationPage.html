@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="referrer" content="unsafe-url">  <link rel="icon" 
+        href="img/small_logo.ico" type="image/x-icon"> <link rel="apple-touch-icon" href="img/company_logo.ico">  
+        <title>SHOP | Регистрация</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/registrationPage.css">
+    </head>
+<body>
+    <div class="center logo d-flex justify-content-center">
+        <a href="homeShopPage.html"><img src="img/company_logo.jpg" alt="logo" width="120"></a>
+    </div>
+    <div class="container center margin-bottom">        
+        <div class="btn-group justify-content-center" role="group" aria-label="Basic example">
+            <button type="button" class="button left" disabled="disabled">Впервые на SHOPNAME?</button>
+            <button type="button" class="button right" onclick="goToAutho()">Вы уже зарегистрированы?</button>
+        </div>      
+        <div>
+            <div id="RegText">ЗАРЕГИСТРИРОВАТЬСЯ ЧЕРЕЗ</div>
+            <div class="container d-flex flex-row justify-content-around">
+                <div type="button" class="connect facebook "> <img src="img/facebook-ico.png" alt="facebook-ico">   facebook</div>
+                <div type="button" class="connect google"> <img src="img/google-ico-v2.png" alt="google-ico-v2"> google</div>
+                <div type="button" class="connect vk"> <img src="https://vk.com/images/svg_icons/ic_head_logo.svg" alt="vk"></div>
+            </div>
+            <div>
+                <p class="paragraph">Регистрация через профиль социальной сети выполняется очень быстро. Вам не придется запоминать 
+                    новые пароли - никакой перегрузки для памяти. Не беспокойтесь, мы никогда не передадим ваши данные
+                     третьим лицам и не будем публиковать информацию от вашего имени</p>
+            </div>
+            <div class="title">Или</div>
+            <div id="RegText">ЗАРЕГИСТРИРОВАТЬСЯ, УКАЗАВ АДРЕС ЭЛ. ПОЧТЫ</div>
+        </div>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1" class="d-flex justify-content-start opasity">АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ:</label>
+              <input type="email" class="form-control buttonSize" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted d-flex justify-content-start">Мы вышлем на него подтверждение заказа
+                </small>
+            </div>
+            <div class="form-group ">
+                <label for="Name" class="d-flex justify-content-start opasity">Имя:</label>
+                <input class="form-control buttonSize" type="text">
+            </div>
+            <div class="form-group">
+                    <label for="Surname" class="d-flex justify-content-start opasity">Фамилия:</label>
+                    <input class="form-control buttonSize" type="text">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" class="d-flex justify-content-start opasity">ПАРОЛЬ:</label>
+              <input type="password" class="form-control buttonSize" id="exampleInputPassword1">
+            </div>
+            <label for="custom-control" class="opasity d-flex align-items-start">Пол:</label>
+            <div class="form-group d-flex align-items-start">
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="RadioInlineMan" name="RadioInline" class="custom-control-input">
+                    <label class="custom-control-label" for="RadioInlineMan">Мужской</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="RadioInlineWoman" name="RadioInline" class="custom-control-input">
+                    <label class="custom-control-label" for="RadioInlineWoman">Женский</label>
+                </div>
+                </div>
+            <button type="submit" class="buttonSize btn btn-dark d-flex align-items-start ">ЗАРЕГЕСТРИРОВАТЬСЯ НА SHOPNAME</button>
+          </form>
+          <p class="paragraph">Создавая личный кабинет, вы соглашаетесь с нашими <a href="#">Условиями использования & Политикой Конфиденциальности</a></p>
+    </div>
+    <script src="js/myjs.js"></script>
+</body>
+</html>

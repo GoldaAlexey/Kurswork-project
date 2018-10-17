@@ -1,0 +1,33 @@
+@import 'authorityPage.css';
+
+.left{
+    border:1px solid black;
+    border-bottom: none;
+    color:rgb(0, 0, 0);
+}
+
+.right{
+    border:none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+div #RegText{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.paragraph{
+    text-align: center;
+}
+
+.buttonSize{
+    width: 67%;
+}
+
+form #emailHelp,.custom-control-label,.paragraph{
+    text-transform: none;
+}
+
+.custom-control-label,.paragraph{
+  font-weight: 100; 
+}
+
