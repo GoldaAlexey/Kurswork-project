@@ -25,10 +25,7 @@ body,button{
     text-align: center;
 }
 
-.button{
-    width:250px;
-    height: 100px;
-    background-color: #fff;
+.button{    
     border: 1px solid black;
     font-size: 14px;
     cursor: pointer;
@@ -42,6 +39,13 @@ body,button{
     border-bottom: none;
     color:rgb(0, 0, 0);
 }
+
+.left, .right{
+    width:14rem;
+    height:6rem;
+    background-color: #fff;
+}
+
 
 button, 
 button:active, 

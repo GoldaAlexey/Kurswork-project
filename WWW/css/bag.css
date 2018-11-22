@@ -1,0 +1,214 @@
+.bag_page{
+    background-color: #eee;
+    color: #2d2d2d;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin-left: 0;
+    box-sizing: border-box;
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.bag-contents-holder{
+    padding-top:1%;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.total{
+    margin-left: 2%;
+    background-color: #eee;
+}
+.total-content{
+    background-color: #fff;
+    
+    padding: 0 9%;
+    padding-bottom: 9%;
+
+}
+
+.bag-payment-options{
+    padding: 0 30px 10px;
+}
+.bag-title-holder{
+    padding: 26px 30px 16px;
+}
+.bag-title-holder-total{
+    padding-left: 0;
+}
+
+.button-selected{
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    cursor: pointer;
+    display: block;
+    font-size: .875em;
+    letter-spacing: .0857142857em;
+    line-height: 1em;
+    margin: 0 auto;
+    max-width: 20.5714285714em;
+    padding: 1.0714285714em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.bag-payment-options-image{
+    max-height: 20px;
+    margin-top: 2%;
+    padding-left: 10%;
+}
+.select2-container{
+    padding: 5px 0 5px 2px;
+    letter-spacing: .6px;
+}
+.select-number{
+    width: 20%;
+    text-align-last: center;
+}
+
+.select{
+    border-radius: 0;
+    margin: 3%;
+    margin-top: -5px;
+    color: #666;
+    padding-left: 0;
+    font-size: 0.8em;
+    line-height: 28px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: .6px;
+}
+.bag-title{
+    display: inline;
+    margin: 0;
+    font-size: 1.15em;
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 2em;
+}
+.bag-expiry-warning{
+    margin:0;
+    float: right;
+    line-height: 2.7em;
+    font-size: .88em;
+    letter-spacing: .6px;
+}
+.img_cart_prod{
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.name_product{
+    max-width: 100%;
+    font-size: 1em;
+    line-height: 1.5em;
+    max-height: 3.2em;  
+    color: #2d2d2d;
+    letter-spacing: .5px;
+    opacity: .9;
+    overflow: hidden;
+    padding: 0 25px 8px 0;
+}
+.btn-2{
+    padding: 0;
+    background-color: #fff;
+    font-size: 22px;
+}
+
+.bag_subtotal{
+    letter-spacing: 2px;
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .9em;
+    text-align: right;
+    margin: 30px 0 14px;
+    padding: 0 30px;
+}
+
+.bag-panel-title{
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 3px;
+    text-transform: uppercase;
+}
+.bag-panel-content{
+    letter-spacing: .4px;
+    line-height: 1.5em;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bag-panel-content--underline{
+    text-decoration: underline;
+}
+.bag-panel-link  {
+    text-decoration: none;
+    display: block;
+    color: #2d2d2d;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.bag-panel-link:hover{
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+.img{
+   padding-right: 40px;
+   padding-top: 40px;
+    
+    display: block;
+    text-align: left;
+}
+.border{
+    padding-top:2%;
+    background-color: #eee;
+}
+.bag-total-holder, .bag-total-title{
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.bag-total-title{
+    letter-spacing: 2px;
+    margin-top: 6px;
+    margin: .8em 0;
+}
+
+.bag-total-price{
+    float: right;
+    letter-spacing: 2px;
+    font-weight: 400;
+}

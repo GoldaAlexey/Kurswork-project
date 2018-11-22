@@ -1,10 +1,17 @@
 *{
     list-style: none;
 }
+
 .dropdown:hover > .dropdown-menu { 
     display: block; 
 } 
 
+.dropdown-toggle::after{
+   display: none;
+}
+.account-dropwown{
+    margin-top: 5px;
+}
 .rounded{
     border-radius: 10%;
 }
@@ -13,18 +20,39 @@
     padding-left:0;
     padding-right: 0;
 }
+.navbarStyle,.btn-nav{
+    background-color: #2d2d2d!important;
+}
 
 .btn{
     padding: 13px 6px;
     border: 0px; 
 }
-
+.nav-button-menu{
+    background-color: #525050;
+}
+.button-nav{
+    color: #2d2d2d;
+    background-color: #eee;
+    font-weight: 400;
+    font-size: .875rem;
+    font-family: futura-pt,sans-serif;
+    letter-spacing: .4px;
+    color: #fff;
+    letter-spacing: .8px;
+    line-height: 50px;
+    border: none;
+    padding: 0 10px;
+    background-color: #525050;
+    margin: 0;
+    outline: none;
+    border-radius: 0;
+}
 .navbar-brand{
     margin-right: 0;
 }
 
 footer{
-    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #eee;
@@ -69,3 +97,111 @@ footer a{
 .row{
     width: 100%;
 }
+
+.margin-menu{
+    margin-left: 12%;
+}
+
+.slider{
+    margin:5%;
+}
+
+.slider-box{
+    background: #452c4f;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.slider p{
+    padding-top:3%;
+    text-align: start;
+    font-size: 14px;
+    background: #fff;
+    color: #000;
+    width: 185px;
+    vertical-align: center;
+    padding-top:3px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.slick-slider{
+    margin-right: -50px;
+    margin-top: 30px;
+}
+.slick-active div{
+    width: 20 0px;
+}
+
+.dws-menu{
+    margin: 0;
+    padding: 0;
+    background-color: #525050;
+    text-align: center;
+}
+
+.dws-menu ul,  .dws-menu ol{
+    list-style: none;
+}    
+
+.dws-menu > ul{
+    padding-left: 5%;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0;
+}
+
+.dws-menu > ul li{
+    position: relative;
+} 
+
+.dws-menu > ul li a{
+    background-color: #525050;
+    padding: 10px 20px 10px 20px;    
+    text-decoration: none;   
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    transition: all 0.3s ease;
+   } 
+   
+   .dws-menu > ul li > a i.fa{
+    font-size: 18px;
+   }
+
+   .dws-menu li a:hover{
+    background: #fff;
+    color: #525050;
+    transition: all 0.3s ease;
+   }
+
+   .dws-menu li ul{
+    position: absolute;
+    min-width: 160px;
+    display: none;
+    background-color: #fff;
+   }   
+
+   .dws-menu li ul a{
+     background-color: #fff;
+     color: #525050;
+   }
+
+   .dws-menu li ul div{
+       z-index: 1;
+       padding:0;
+   }
+
+
+   .dws-menu li:hover > ul{
+    display: block;
+   }  
+
+  .slider-bootstrap{
+      height:  200px;
+  }
+  .slider-bootstrap div{
+    height:  200px;
+}
+

@@ -1,0 +1,62 @@
+.container button{
+    position: absolute;
+    top:50%;
+    width: 72px;
+    height: 61px;
+    background: rgba(0,0,0,.35);
+    border: 0;
+    z-index: 1;
+    cursor: pointer;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+ 
+.container .slick-prev,.slider button.slick-prev:hover{
+    left:-50px;
+
+    background-image: url("../img/prev.png");
+}
+
+.slider button.slick-next,.slider button.slick-next:hover{
+    right:50px;
+    background-image: url("../img/next.png");
+    
+}
+.slider button:hover{
+    background-color: #fdc903;
+}
+
+#container {
+    max-width: 90%;
+    margin: 0 auto;
+    max-height: 100%;
+    padding-bottom: 10%;
+}
+.sliderTeam {
+    max-width: 95%;
+    margin: 55px 20px 0px 20px;
+    height: 300px;     
+}
+.team__foto img {
+    width: 190px;
+    position: relative;
+    top: -20px;     
+}
+.team__foto {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+.slick-slide {
+    height: 235px;
+    width: 250px; 
+    padding-left: 10px;
+    margin-left:10px;
+    position: relative;
+}
+.text-slider{
+    color: #fff;
+}
+

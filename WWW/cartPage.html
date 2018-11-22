@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="referrer" content="unsafe-url">  <link rel="icon" 
+    href="img/small_logo.ico" type="image/x-icon"> <link rel="apple-touch-icon" href="img/company_logo.ico">  
+    <title>CartPage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/bag.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-start navbarStyle">
+        <div class="brands">
+        <a class="navbar-brand" href="homeShopPage.html">
+            <img src="img/company_logo.jpg" width="100" height="50" alt="">
+        </a>   
+        <div class="btn-group justify-content-center" role="group">
+            <button type="button" class="btn btn-nav text-light" >ЖЕНСКОЕ</button>
+            <button type="button" class="btn btn-nav text-light" >МУЖСКОЕ</button>
+        </div>   
+        </div>
+        <form class="form-inline col-6 my-4 my-lg-0">
+            <input class="form-control col-12" type="search" placeholder="Искать" aria-label="Search">
+        </form>
+        <div class="d-flex justify-content-start">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="d-flex flex-row">
+                        <a class="dropdown-item" href="authorityPage.html" >Войти</a>
+                        <a class="dropdown-item" href="registrationPage.html" >Регистрация</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Личный кабинет</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Мои заказы</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Предпочтительный способ связи</a>
+                </div>
+            </li>
+        </ul>
+        <div class="btn-group justify-content-center" role="group" aria-label="Basic example">
+            <button type="button" class="btn  btn-nav  text-light"><img src="img/cart.png" alt="cart" 
+                style="vertical-align: middle" width="30"></button>
+            <button type="button" class="btn   btn-nav  text-light"><img src="img/heart.png" alt="cart" 
+                style="vertical-align: middle" width="30"></button>
+        </div>  
+    </div>
+    </nav>
+    <section class="bag_page">
+        <div class="d-flex justify-content-center ">
+            <div class="col-5 bag-contents-holder">
+                <div class="bag-title-holder">
+                    <h2 class="bag-title"> Моя корзина</h2>
+                    <p class="bag-expiry-warning bag-expiry-warning--desktop">Товары будут зарезервированы на 60 минут</p>
+                </div>                
+                <hr>
+                <div  class="d-flex justify-content-start">
+                    <div class="img_cart_prod">      
+                        <img  width="90px" src="img/product.jpg" alt="img">
+                    </div>
+                    <div class="col-8 ">
+                        <span class="cell">15 $</span>
+                        <p class="name_product">  Топ Befree</p>
+                        <div class="d-flex flex-row ">
+                            <span>Белый</span>   
+                            <select id="inputPazmer" class="form-control select2-container select">
+                                <option selected>38</option>
+                                <option>35</option>
+                                <option>34</option>
+                            </select>
+                            <select id="inputKolvo" class="form-control select2-container select select-number">
+                                <option selected>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>3</option>
+                                <option>3</option>
+                            </select>                                
+                        </div>            
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-2">X</button>
+                    </div>
+                </div>
+                <hr>
+                <div  class="d-flex justify-content-start">
+                    <div class="img_cart_prod">      
+                        <img  width="90px" src="img/product.jpg" alt="img">
+                    </div>
+                    <div class="col-8 ">
+                        <span class="cell">15 $</span>
+                        <p class="name_product">  Топ Befree</p>
+                        <div class="d-flex flex-row ">
+                            <span>Белый</span>   
+                            <select id="inputPazmer" class="form-control select2-container select">
+                                <option selected>38</option>
+                                <option>35</option>
+                                <option>34</option>
+                            </select>
+                            <select id="inputKolvo" class="form-control select2-container select select-number">
+                                <option selected>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>3</option>
+                                <option>3</option>
+                            </select>                                
+                        </div>      
+                         <h3 class="bag_subtotal">
+                             <span>
+                                Всего
+                             </span>
+                             <span>
+                                    30 $
+                             </span>
+                         </h3>             
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-2">X</button>
+                    </div>
+                </div>  
+                <div class="border"></div>
+                <a href="#" class="bag-panel-link  bag-panel-link--delivery">
+                    <div class="d-flex justify-content-start">
+                        <div class="img">
+                            <img  width="50px" src="img/truck.png" alt="img">
+                        </div>
+                        <div >
+                            <span class="bag-panel-title">Бесплатная доставка почтой*</span>
+                            <p class="bag-panel-content">Также доступны более быстрые опции</p>
+                            <p class="bag-panel-content bag-panel-content--underline" >*ПОДРОБНЕЕ ›</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="border"></div>
+                <a href="#" class="bag-panel-link  bag-panel-link--delivery">
+                        <div class="d-flex justify-content-start">
+                            <div class="img">
+                                <img  width="50px" src="img/return-icon.png" alt="img">
+                            </div>
+                            <div >
+                                <span class="bag-panel-title">28 дней</span>
+                                <p class="bag-panel-content">в запасе, чтобы вернуть</p>
+                                <p class="bag-panel-content bag-panel-content--underline" >*ПОДРОБНЕЕ ›</p>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+            <div class="col-3 bag-contents-holder total">
+                <div class="total-content">
+                    <div class="bag-title-holder bag-title-holder-total">
+                            <h2 class="bag-title"> Итого</h2>                       
+                    </div> 
+                    <hr>
+                    <span class="bag-total-title bag-total-title--subtotal">
+                            Всего
+                    </span>
+                    <span  class="bag-total-price">
+                            15$
+                    </span>
+                    <div class="d-flex flex-column">
+                        <span  class="bag-total-title bag-total-title--delivery">
+                                Доставка
+                        </span> 
+                        <select id="inputdelivery" class="form-control select2-container select">
+                                <option selected>Стандартная доставка(бесплатно)</option>
+                                <option>Экспресс доставка (16,00 $)</option>
+                        </select>    
+                    </div> 
+                    <hr>
+                    <button class="button-selected  btn-success">Оплатить</button>    
+                    <span class="bag-total-title bag-payment-options">
+                           Мы принимаем 
+                    </span>       
+                    <img class="bag-payment-options-image" src="img/single.png" alt="single.png">  
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>    
+        <div class="d-flex justify-content-center white">
+             <div class="border-right">  
+                <a class="btn" href="#" role="button"><img src="img/icons8-facebook-48.png" alt=""></a>
+                <a class="btn" href="#" role="button"><img src="img/icons8-instagram-48.png" alt=""></a>
+                <a class="btn" href="#" role="button"><img src="img/icons8-вконтакте-48.png" alt=""></a>
+            </div> 
+            <div>
+                <a class="btn" href="#" role="button"><img src="img/icons8-виза-48.png" alt=""></a>
+            </div>
+        </div>
+        <div class="row info justify-content-center">
+            <div class="col-2 d-flex flex-column">
+                <p> ПОМОЩЬ И ИНФОРМАЦИЯ</p>
+                <a href="#">Помощь</a>
+                <a href="#">Отследить заказ</a>
+                <a href="#">Доставка и возвраты</a>
+                <a href="#">10% скидка для студентов</a>
+            </div>
+            <div class="col-2 d-flex flex-column">
+                    <p> ПОДРОБНЕЕ ОБ SHOPNAME</p>
+                    <a href="#">О нас</a>
+                    <a href="#">Вакансии в SHOPNAME</a>
+                    <a href="#">Корпоративная ответственность</a>
+                    <a href="#">Инвесторам</a>
+            </div>
+            <div class="col-3 d-flex flex-column">
+                <p> БОЛЬШЕ О SHOPNAME</p>
+                <a href="#">Версия для мобильного и приложение SHOPNAME</a>
+                <a href="#">SHOPNAME MarketPlace</a>
+            </div>
+            <div class="col-2 d-flex flex-column">
+                <p> ШОППИНГ В</p>
+            </div>
+        </div>
+        <div class="darker d-flex justify-content-around footerCopy">
+            <div class="col-7">
+                <p>&copy; 2018</p>
+            </div>
+            <div class="col-4">
+                <a href="#">Конфеденциальность и cockie-файлы</a>
+                <a href="#">Правила и условия</a>
+                <a href="#">Доступность</a>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/slick.js"></script>
+<script src="js/myjs.js"></script>
+</body>
+</html>
