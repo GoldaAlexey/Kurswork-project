@@ -85,7 +85,7 @@ h1{
 
 .form-check{
     padding: 0.5rem;
-    width: 15rem;
+    width: 100%;
     background-color: #fff;
     margin-bottom: 3%;
     border-radius: 5px;
@@ -259,4 +259,88 @@ h1{
 
 #checkboxes label:hover{
     background-color: #1e90ff
+}
+
+.multiselect{
+    position: relative;
+    margin-right: 2%;
+    
+    
+}
+.selectBox{
+    background: transparent;
+    width:100%;
+}
+.selectBox select{
+    padding: 1%;
+    background-color: #eee;
+    font-family: futura-pt,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+    color: #666;
+    line-height: 1.12;
+    text-align: left;
+    height: 40px;
+}
+
+.selectBox select option{
+    padding: 3px 20px 3px 6px;
+    width: 100%;
+}
+
+.checkboxes{
+    position: absolute;
+    z-index: 999;
+    margin:0 3% 0 0;
+    padding: 5%;
+    background-color: #eee;
+    box-shadow: 0 5px 13px -2px rgba(0,0,0,.8);
+    box-sizing: border-box;
+    overflow-y: auto;
+    width: 18rem;
+}
+
+.form-check input{
+    display: none;
+}
+.select-all-group{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+   margin: -10px;
+   margin-bottom: 10px;
+}
+.select-all-button{
+    border-radius: 0;
+    background: none;
+    cursor: pointer;
+    font-family: futura-pt,sans-serif;
+    letter-spacing: 1.9px;
+    font-size: 13px;
+    line-height: 1.54;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+    color: #666;
+    border: 2px solid #999;
+    min-width: 70px;
+    padding: 0 10px;
+    height: 34px;
+    float: right;
+    margin: 0 5px 0 8px;
+    background-color: #f8f8f8;
+    
+}
+.select-all-button label{
+    padding-top: 5px;
+}
+.select-all-button:hover{
+    color: #0770cf;
+    border-color: #0770cf;
 }

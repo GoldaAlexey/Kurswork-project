@@ -63,7 +63,7 @@
             <div class="multiselect">
                 <div class="selectBox" onclick="showCheckboxes(1)">
                     <select>
-                        <option>Select an option</option>                    
+                        <option>Сортировать</option>                    
                     </select>
                     <div class="overSelect"></div>
                 </div>
@@ -85,17 +85,28 @@
             <div class="multiselect">
                 <div class="selectBox" onclick="showCheckboxes(2)">
                     <select>
-                        <option>Select an option</option>                    
+                        <option>Тип продукта</option>                    
                     </select>
                     <div class="overSelect"></div>
                 </div>
                 <div id="checkboxes2" class="checkboxes">
-                    <div>
-                        <label for="all"><input type="checkbox" id="all">Select All</label>
+                    <div class="d-flex justify-content-between select-all-group">
+                        <div class="how-much">
+                            <p>Выбрано <span class="number-of-item"> 0 </span> </p>
+                        </div>
+                        <div class="form-check col-2 select-all-button" id="type-of-products" onclick="selectAll()">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                            Все
+                            </label>
+                        </div>
                     </div>
-                    <label for="one"><input type="checkbox" id="one">First checkbox</label>
-                    <label for="two"><input type="checkbox" id="two">Second checkbox</label>
-                    <label for="three"><input type="checkbox" id="three">Third checkbox</label>
+                    <div class="form-check"  id="type-of-product-1" onclick="selectCheck(1)">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Default checkbox
+                        </label>
+                    </div>
                 </div>
             </div>
 
