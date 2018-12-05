@@ -210,9 +210,9 @@ footer a{
     padding: 0 5%;
     position: relative;
 }
-.actual-content{
+.actual-content, .read-more{
     text-align: center;
-    margin: 0 13%;
+    margin: 0 5%;
     position: relative;
 }
 .title-actual-content {
@@ -224,6 +224,7 @@ footer a{
     text-transform: uppercase;
     position: relative;
     font-weight: bold;
+    font-size: 1.5rem;
   }
   .title-actual-content:before,
   .title-actual-content:after {
@@ -235,7 +236,7 @@ footer a{
     height: 1px;
     background: rgba(5, 5, 5,0.5);
     border: solid #FFF;
-    border-width: 0 10px;
+    border-width: 0 5px;
   }
   .title-actual-content:before {
     margin-left: -100%;
@@ -298,7 +299,7 @@ footer a{
   .card:hover .card-img-top{
     opacity: 1;
   }
-  .card:hover .hide-watch{
+  .card:hover .hide-watch, .reklama:hover .hide-watch{
       display:block;
       z-index: 10;
 
@@ -371,3 +372,105 @@ footer a{
       width: auto;
       height: auto;
   }
+
+  .margin-top{
+    margin: 0 auto;
+    margin-top: -3rem;
+    background: #fff;
+    z-index: 100;
+    width: 80%;
+    text-align: center;
+  }
+  .content-2{
+      margin-top: 1rem;
+  }
+
+/*
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+  .center{
+      margin: 0 5%;
+  }
+
+  .content-with-slider{
+      position: relative;
+      margin-top: 5%;
+  }
+
+  .carousel-card{
+      width:50rem;  
+  }
+
+  .carousel-hide{
+      left: 45%;
+      top:45%;
+  }
+
+.card-side-content{
+    width:100%;
+}
+
+.side-hide{
+    left: 33%;
+    top:33%;
+}
+
+.reklama{
+    margin: 3% 6%;
+}
+.reklama-hide{
+    left: 50%;
+    top:40%;
+}
+
+.reklama img{
+    width: 100%;
+}
+.content-2-big-div{
+    margin-left:2.5%;
+}
+
+.actual-content{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+.cards{
+    margin-top: 3rem;
+}
+
+.read-more{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.hide-watch{
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+    padding-top:12px;
+    font-size: 18px;
+}
+.read-more-hide{
+    left:29%;
+    top:29%;
+}
+.second-card{
+    margin-top:4%;
+}
