@@ -77,9 +77,16 @@ body,button{
     padding: 1% 5%;
 }
 
-@media (min-width: 768px){
+@media (min-width:1240px){
     .categories{
         display: block;
+    }
+    .pdocuct-center{
+        columns: 8;
+    }
+    .product{
+        display: block;
+        flex:row;
     }
     }
     

@@ -1,0 +1,135 @@
+.dropdown:hover > .dropdown-menu { 
+    display: block; 
+} 
+
+.dropdown-toggle::after{
+   display: none;
+}
+.account-dropwown{
+    margin-top: 5px;
+}
+.rounded{
+    border-radius: 10%;
+}
+.brands{
+    margin-left:5%;
+    padding-left:0;
+    padding-right: 0;
+}
+.navbarStyle,.btn-nav{
+    background-color: #2d2d2d!important;
+}
+
+.btn{
+    padding: 13px 6px;
+    border: 0px; 
+}
+.nav-button-menu{
+    background-color: #525050;
+}
+.button-nav{
+    color: #2d2d2d;
+    background-color: #eee;
+    font-weight: 400;
+    font-size: .875rem;
+    font-family: futura-pt,sans-serif;
+    letter-spacing: .4px;
+    color: #fff;
+    letter-spacing: .8px;
+    line-height: 50px;
+    border: none;
+    padding: 0 10px;
+    background-color: #525050;
+    margin: 0;
+    outline: none;
+    border-radius: 0;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+
+.margin-menu{
+    margin-left: 12%;
+}
+
+.dws-menu > ul li ul a {
+    font-size: .875rem;
+    font-family: futura-pt,sans-serif;
+    letter-spacing: .4px;
+    line-height: 1.14;
+    display: inline-block;
+    color: #666;
+    text-decoration: none;
+}
+.dws-menu > ul li div{
+    text-align: start;
+    padding: 0;
+}
+.dws-menu > ul li ul a:hover {
+    color: #0770cf;
+}
+.sort-colection-nav{
+    margin-left: 5%;
+}
+.card-title-nav{
+    font-size: .875rem;
+    font-family: futura-pt,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-bottom: 1px solid #2d2d2d;
+    padding-bottom: 5.5px;
+    margin-top: 5%;
+    margin-bottom: 12px;
+   
+}
+
+.card-nav{
+    box-sizing: border-box;
+    position: relative;
+    width: 50rem
+}
+.sort-colection-nav{
+    font-size: 100%;
+}
+.list-nav-menu,.sort-colection-nav,.new-colection-nav {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.menu-icon svg{
+    display: block;
+   
+    
+}
+.menu-icon{
+    text-align: right;
+    background-color: #2d2d2d!important;
+    z-index: 10;
+    display:none;
+}
+@media (max-width: 600px){
+    .menu-icon {
+        position: relative;
+        display: block;
+        z-index: 10;
+    }
+    .menu{
+        display: none;
+    }
+    .menu.active{
+        display: block;
+    }
+    .brands{
+        display: block;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .form-inline,.nav-buttons{
+        columns: 12;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+}

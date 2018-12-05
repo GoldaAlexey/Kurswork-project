@@ -10,8 +10,53 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/manager.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
+        <nav class="">
+                <div class="menu-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" height="24px" id="Layer_1" version="1.2" viewBox="0 0 24 24" width="24px" xml:space="preserve"><path d="M19,17H5c-1.103,0-2,0.897-2,2s0.897,2,2,2h14c1.103,0,2-0.897,2-2S20.103,17,19,17z"/><path d="M19,10H5c-1.103,0-2,0.897-2,2s0.897,2,2,2h14c1.103,0,2-0.897,2-2S20.103,10,19,10z"/><path d="M19,3H5C3.897,3,3,3.897,3,5s0.897,2,2,2h14c1.103,0,2-0.897,2-2S20.103,3,19,3z"/></svg></div>
+                <div class="navbar navbar-expand-lg navbar-light justify-content-start navbarStyle menu ">
+                    <div class="brands">
+                    <a class="navbar-brand" href="homeShopPage.html">
+                        <img src="img/company_logo.jpg" width="100" height="50" alt="">
+                    </a>               
+                    </div>
+                    <div class="btn-group justify-content-center" role="group">
+                            <button type="button" class="btn btn-nav text-light" onclick="goToProducts()">ЖЕНСКОЕ</button>
+                            <button type="button" class="btn btn-nav text-light" >МУЖСКОЕ</button>
+                    </div>   
+                    <form class="form-inline col-6 my-4 my-lg-0">
+                        <input class="form-control col-12" type="search" placeholder="Искать" aria-label="Search">
+                    </form>
+                    <div class="d-flex justify-content-start">
+                    <ul class="navbar-nav nav-dropdown">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle account-dropwown" href="#" id="navbarDropdown" 
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/account.png" alt="cart" 
+                            style="vertical-align: middle" width="30"></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="d-flex flex-row">
+                                    <a class="dropdown-item" href="authorityPage.html" >Войти</a>
+                                    <a class="dropdown-item" href="registrationPage.html" >Регистрация</a>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Личный кабинет</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Мои заказы</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Предпочтительный способ связи</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="btn-group justify-content-center nav-buttons" role="group" aria-label="Basic example">
+                        <button type="button" class="btn  btn-nav  text-light" onclick="goToCart()"><img src="img/cart.png" alt="cart" 
+                            style="vertical-align: middle" width="30"></button>
+                        <button type="button" class="btn   btn-nav  text-light"><img src="img/heart.png" alt="cart" 
+                            style="vertical-align: middle" width="30"></button>
+                    </div>  
+                    </div>
+            </div>
+            </nav>
         <div class="content">
                 <div class="categories d-flex ">
                     <div class="multiselect">

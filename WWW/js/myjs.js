@@ -1,13 +1,15 @@
 function goToAutho(){
     document.location.href = "authorityPage.html";
-}
+};
 function goToReg(){
     document.location.href = "registrationPage.html";
-}
+};
 function goToCart(){
     document.location.href = "cartPage.html";
-}
-
+};
+function goToProducts(){
+    document.location.href = "productspage.html"
+};
 $(function(){
     $('.sliderTeam  ').slick({
         slidesToShow: 3,
@@ -19,6 +21,10 @@ $(function(){
       });
 });
 
+
+$('.menu-icon').click(function(){
+    $('.menu').toggleClass("active");
+});
 $(function(){
     $('.minimized').click(function(event) {
       var i_path = $(this).attr('src');

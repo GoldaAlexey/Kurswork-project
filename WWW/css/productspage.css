@@ -305,7 +305,7 @@ h1{
     width: 18rem;
 }
 
-.form-check input{
+.input-block{
     display: none;
 }
 .select-all-group{
@@ -343,4 +343,16 @@ h1{
 .select-all-button:hover{
     color: #0770cf;
     border-color: #0770cf;
+}
+
+.content {
+    margin: 0% 0;
+    padding: 0px 0%;
+}
+
+.card-cell-p{
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #666;
+    white-space: nowrap;
 }

@@ -41,7 +41,7 @@ body,button{
 }
 
 .left, .right{
-    width:14rem;
+    width:50%;
     height:6rem;
     background-color: #fff;
 }

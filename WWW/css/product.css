@@ -1,7 +1,7 @@
 body{
     width: 100%;
     font-family: futura-pt,sans-serif;
-    line-height: 1;
+
     position: relative;
 }
 
@@ -9,6 +9,7 @@ body{
     letter-spacing: 0.4px;
     color: #2D2D2D;
     -webkit-font-smoothing: antialiased;
+    margin-top: 5%
 }
 
 .layout-width{

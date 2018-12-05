@@ -2,106 +2,6 @@
     list-style: none;
 }
 
-.dropdown:hover > .dropdown-menu { 
-    display: block; 
-} 
-
-.dropdown-toggle::after{
-   display: none;
-}
-.account-dropwown{
-    margin-top: 5px;
-}
-.rounded{
-    border-radius: 10%;
-}
-.brands{
-    margin-left:5%;
-    padding-left:0;
-    padding-right: 0;
-}
-.navbarStyle,.btn-nav{
-    background-color: #2d2d2d!important;
-}
-
-.btn{
-    padding: 13px 6px;
-    border: 0px; 
-}
-.nav-button-menu{
-    background-color: #525050;
-}
-.button-nav{
-    color: #2d2d2d;
-    background-color: #eee;
-    font-weight: 400;
-    font-size: .875rem;
-    font-family: futura-pt,sans-serif;
-    letter-spacing: .4px;
-    color: #fff;
-    letter-spacing: .8px;
-    line-height: 50px;
-    border: none;
-    padding: 0 10px;
-    background-color: #525050;
-    margin: 0;
-    outline: none;
-    border-radius: 0;
-}
-.navbar-brand{
-    margin-right: 0;
-}
-
-footer{
-    bottom: 0;
-    width: 100%;
-    background-color: #eee;
-}
-footer p{
-    font-weight: 600;
-}
-footer a{
-    color: black;
-    text-decoration-line: none;
-}
-
-.border-right, .footerCopy a{
-    border-right: 2px solid rgb(48, 46, 46);
-}
-
-.white{
-    background: white;
-}
-.info{
-    padding-top: 2%;
-    padding-bottom: 1%;
-}
-
-.darker{
-    background: #ddd;
-    color: #666;
-}
-
-.footerCopy{
-   padding-top: 1%;
-   padding-bottom: 1%;
-    font-size: 12px;
-}
-.footerCopy div>p{
-   margin-left: 10%;
-}
-.footerCopy a{
-    padding-right: 5px;
-}
-
-.row{
-    width: 100%;
-}
-
-.margin-menu{
-    margin-left: 12%;
-}
-
 .slider{
     margin:5%;
 }
@@ -203,6 +103,11 @@ footer a{
   }
   .slider-bootstrap div{
     height:  200px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
 }
 
 .content{
@@ -414,10 +319,6 @@ a:hover{
       margin-top: 5%;
   }
 
-  .carousel-card{
-      width:50rem;  
-  }
-
   .carousel-hide{
       left: 45%;
       top:45%;
@@ -473,4 +374,14 @@ a:hover{
 }
 .second-card{
     margin-top:4%;
+}
+
+@media (max-width: 700px){
+    .carousel-hd{
+        display: none;
+        display: block;
+    }
+    .nav-dropdown{
+        display: block;
+    }
 }
